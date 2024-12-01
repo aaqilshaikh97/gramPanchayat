@@ -35,7 +35,7 @@ function SkNavbar() {
         <Toolbar disableGutters>
         <SkTypography variant="h6" color="text.secondary"   sx={{ fontWeight: 'bold', color: 'white' }}
         >
-        ग्राम पंचायत कार्यालय, रामलिंग (म)
+        ग्राम पंचायत, रामलिंग (म)
 
         </SkTypography>
 
