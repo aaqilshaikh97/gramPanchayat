@@ -94,10 +94,10 @@ export default Home;
   height: "300px",
 };
 
- const IMAGE_SIZE = {
-  height: "160px", 
-  width: "100%",   
-};
+//  const IMAGE_SIZE = {
+//   height: "160px", 
+//   width: "100%",   
+// };
 
 
  const BOX_STYLES = {
