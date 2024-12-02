@@ -13,6 +13,7 @@ import market from "../../assets/media/images/market.jpg";
 import healthcare from "../../assets/media/images/healthcare.jpg";
 import connectivity from "../../assets/media/images/connectivity.jpg";
 import agriculture from "../../assets/media/images/agriculture.jpg";
+import Footer from "../../components/footer";
 
 function Home() {
   return (
@@ -140,6 +141,8 @@ function Home() {
           </SkCard>
         </Box>
       </SkBox>
+      <Footer/>
+
     </>
   );
 }
@@ -165,12 +168,4 @@ const BOX_STYLES = {
   color: "white",
 };
 
-// const OVERLAY_BOX_STYLES = {
-//   position: "absolute",
-//   top: 0,
-//   left: 0,
-//   right: 0,
-//   bottom: 0,
-//   filter: "blur(8px)",
-//   zIndex: -1,
-// };
+

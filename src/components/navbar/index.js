@@ -16,6 +16,8 @@ const pages = [
   { name: "Home", path: "/" },
   // { name: "About", path: "/about" },
   { name: "members", path: "/members" },
+  { name: "schemes", path: "/schemes" },
+
 ];
 
 function SkNavbar() {
