@@ -10,12 +10,12 @@ import Container from "@mui/material/Container";
 import Button from "@mui/material/Button";
 import MenuItem from "@mui/material/MenuItem";
 import { Link } from "react-router-dom";
-// import SkLogo from "../../assets/media/images/SK_logo.png";
 import SkTypography from "../SkTypography";
+
 const pages = [
   { name: "Home", path: "/" },
   // { name: "About", path: "/about" },
-  // { name: "contact", path: "/contact" },
+  { name: "members", path: "/members" },
 ];
 
 function SkNavbar() {
