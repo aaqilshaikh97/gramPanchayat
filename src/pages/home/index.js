@@ -14,8 +14,12 @@ import healthcare from "../../assets/media/images/healthcare.jpg";
 import connectivity from "../../assets/media/images/connectivity.jpg";
 import agriculture from "../../assets/media/images/agriculture.jpg";
 import Footer from "../../components/footer";
+import { useNavigate } from "react-router-dom";
+
 
 function Home() {
+  const navigate = useNavigate();
+
   return (
     <>
       <SkNavbar />
@@ -98,8 +102,16 @@ function Home() {
           <SkCard
             title="Education Facilities"
             image={education}
-            sx={{ width: CARD_SIZE.width, height: CARD_SIZE.height }}
-          >
+            onClick={() => navigate("/education")}
+            sx={{
+              width: CARD_SIZE.width,
+              height: CARD_SIZE.height,
+              cursor: "pointer", // Optional: pointer cursor for better UX
+              transition: "transform 0.2s",
+              "&:hover": {
+                transform: "scale(1.02)",
+              },
+            }}          >
             Schools, a public library, and digital learning centers ensure
             educational development.
           </SkCard>
